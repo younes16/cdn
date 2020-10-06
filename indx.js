@@ -308,7 +308,7 @@ function modifyBar() {
 	var qbuy_position = $('.qbuy_position').val();
 	var lang = $("#lang_input").val();
   var prec_setting = $(".precision_settings").val();
-
+console.log(var_images+lang+prec_setting)
 	$.ajax({
 		type:"POST",
 		url:"modscript.php",
