@@ -1,8 +1,8 @@
 /*!
  * 
- * 	elfsight.com
+ * 	
  * 
- * 	Copyright (c) 2020 Elfsight, LLC. ALL RIGHTS RESERVED
+ * 	
  * 
  */
 ! function(o) {
