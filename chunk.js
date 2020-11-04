@@ -299,7 +299,7 @@ elementEmpty=reda;
       POS=label_text;
 
     if (reda.className!="trust-seals-preview" && elementpicked !=er ) {
-   var re= document.getElementsByClassName("trust-seals-preview")
+   var re= document.getElementsByClassName("ingore")
    if(re && re.length>0){
     for (var i =re.length-1; i >-1; i--) {
           re[i].remove()
@@ -321,7 +321,7 @@ elementpicked= er;
 } } else{
    POS=label_text;
    if (reda.className!="trust-seals-preview" && elementpicked !=er ) {
-   var re= document.getElementsByClassName("trust-seals-preview")
+   var re= document.getElementsByClassName("ingore")
    if(re && re.length>0){
     for (var i =re.length-1; i >-1; i--) {
           re[i].remove()
