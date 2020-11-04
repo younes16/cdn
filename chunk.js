@@ -385,6 +385,6 @@ elementpicked= er;
 
 
  var myExampleClickHandler = function (element) { console.log('Clicked element:', element); }
- var myDomOutline = DomOutline({ onClick: myExampleClickHandler, filter: 'div' });
+ var myDomOutline = DomOutline({ mouseover: myExampleClickHandler, filter: 'div' });
   
   
